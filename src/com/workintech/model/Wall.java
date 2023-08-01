@@ -13,4 +13,11 @@ public class Wall {
     public void create() {
         System.out.println("The wall created based on "+getDirection()+ " direction.");
     }
+
+    @Override
+    public String toString() {
+        return "Wall{" +
+                "direction='" + direction + '\'' +
+                '}';
+    }
 }

@@ -1,5 +1,7 @@
 package com.workintech.model;
 
+import com.workintech.enums.LampType;
+
 public class Lamp {
     private LampType style;
     private boolean battery;
@@ -25,5 +27,14 @@ public class Lamp {
 
     public int getGlobRating() {
         return globRating;
+    }
+
+    @Override
+    public String toString() {
+        return "Lamp{" +
+                "style=" + style +
+                ", battery=" + battery +
+                ", globRating=" + globRating +
+                '}';
     }
 }

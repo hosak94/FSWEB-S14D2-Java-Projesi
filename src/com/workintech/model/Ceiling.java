@@ -1,5 +1,7 @@
 package com.workintech.model;
 
+import com.workintech.enums.PaintColor;
+
 public class Ceiling {
     private int height;
     private PaintColor paintedColor;
@@ -18,5 +20,13 @@ public class Ceiling {
     }
     public void create() {
         System.out.println("Ceiling height: "+getHeight()+" Color: "+getPaintedColor());
+    }
+
+    @Override
+    public String toString() {
+        return "Ceiling{" +
+                "height=" + height +
+                ", paintedColor=" + paintedColor +
+                '}';
     }
 }

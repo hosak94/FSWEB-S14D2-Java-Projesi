@@ -1,4 +1,4 @@
-package com.workintech.model;
+package com.workintech.enums;
 
 public enum PaintColor {
     RED("Red"),

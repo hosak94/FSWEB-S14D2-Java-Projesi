@@ -23,4 +23,20 @@ public class Bedroom extends Room {
     public Wardrobe getWardrobe() {
         return wardrobe;
     }
+
+    @Override
+    public String toString() {
+        return "Bedroom{" +
+                "bed= " + bed +
+                ", lamp= " + lamp +
+                ", wardrobe= " + wardrobe +
+                "name= " + getName() + '\'' +
+                ", wall1= " + getWall1() +
+                ", wall2= " + getWall2() +
+                ", wall3= " + getWall3() +
+                ", wall4= " + getWall4() +
+                ", ceiling= " + getCeiling() +
+                ", carpet= " + getCarpet() +
+                '}';
+    }
 }
