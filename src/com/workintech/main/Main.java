@@ -2,7 +2,7 @@ package com.workintech.main;
 
 import com.workintech.model.*;
 
-import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +17,5 @@ public class Main {
         bedroom.getCeiling().create();
         bedroom.getBed().make();
         bedroom.getWardrobe().add();
-        b
     }
 }
